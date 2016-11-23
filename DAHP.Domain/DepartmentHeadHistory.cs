@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DAHP.Domain
 {
-    public class PersonInfo
+    public class DepartmentHeadHistory
     {
+        public Guid DepartmentId { get; set; }
+        public Guid Emploment { get; set; }
     }
 }

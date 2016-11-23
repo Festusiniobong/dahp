@@ -45,6 +45,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmGradeLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGradeLevel.Designer.cs">
+      <DependentUpon>frmGradeLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLevelDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLevelDetails.Designer.cs">
+      <DependentUpon>frmLevelDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPayrollCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayrollCategory.Designer.cs">
+      <DependentUpon>frmPayrollCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmQualifications.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +74,12 @@
     </Compile>
     <Compile Include="frmQueryTerminal.Designer.cs">
       <DependentUpon>frmQueryTerminal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmScheduleDeduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScheduleDeduction.Designer.cs">
+      <DependentUpon>frmScheduleDeduction.cs</DependentUpon>
     </Compile>
     <Compile Include="frmSearchEmployee.cs">
       <SubType>Form</SubType>
@@ -131,11 +155,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmGradeLevel.resx">
+      <DependentUpon>frmGradeLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLevelDetails.resx">
+      <DependentUpon>frmLevelDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPayrollCategory.resx">
+      <DependentUpon>frmPayrollCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmQualifications.resx">
       <DependentUpon>frmQualifications.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQueryTerminal.resx">
       <DependentUpon>frmQueryTerminal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScheduleDeduction.resx">
+      <DependentUpon>frmScheduleDeduction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSearchEmployee.resx">
       <DependentUpon>frmSearchEmployee.cs</DependentUpon>

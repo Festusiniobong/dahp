@@ -39,8 +39,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PersonInfo.cs" />
+    <Compile Include="bonus.cs" />
+    <Compile Include="CategoryBonus.cs" />
+    <Compile Include="CategoryDeduction.cs" />
+    <Compile Include="Department.cs" />
+    <Compile Include="DepartmentHeadHistory.cs" />
+    <Compile Include="Education.cs" />
+    <Compile Include="EmployeeSalaryInfo.cs" />
+    <Compile Include="GradeLevel.cs" />
+    <Compile Include="LevelDetails.cs" />
+    <Compile Include="PayrollCategory.cs" />
+    <Compile Include="ProfessionalQualification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Qualification.cs" />
+    <Compile Include="QueryGenerator.cs" />
+    <Compile Include="ScheduleDeduction.cs" />
+    <Compile Include="Tax.cs" />
+    <Compile Include="Unit.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
