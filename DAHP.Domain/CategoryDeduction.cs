@@ -11,6 +11,7 @@ namespace DAHP.Domain
         public Guid Id { get; set; }
         public DateTime DeductionDate { get; set; }
         public int DeductionAmount { get; set; }
+
  
     }
 }
